@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Aquarium extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+        'topic',
+        'nhietdo',
+        'doam',
+        'nhietdonuoc',
+        'tds',
+        'ntu',
+        'khoangcach',
+        'ph'
+    ];
+}
